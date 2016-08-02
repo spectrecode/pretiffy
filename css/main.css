@@ -1,0 +1,47 @@
+body {
+	font-family: "Oswald";
+}
+
+nav ul {
+	list-style-type: none;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	display: inline-block;
+	position: relative;
+	left: 115%;
+}
+
+nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+  	padding: 10px 15px;
+  	color: black;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #010101;
+}
+
+section {
+	background-image: url("../images/background.jpg");
+	height: 500px;
+}
+
+.container {
+	width: 100%;
+}
+
+.logo {
+	width: 5%;
+	position: absolute;
+	top: 50%;
+	right: 49%;
+}
