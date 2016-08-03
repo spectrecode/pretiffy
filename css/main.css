@@ -1,19 +1,21 @@
 body {
 	padding: 0px;
  	margin: 0px;
+ 	font-family: "Oswald";
+}
+
+header nav ul li {
+	display: inline;	
+}
+
+header nav ul {
+	padding-top: 20px;
 }
 
 nav a {
 	text-decoration: none;
 	color: black;
-	padding: 20px 15px;
-}
-
-nav li {
-	float: left;
-	position: relative;
-	left: 145%;		
-	padding-top: 20px;
+	padding: 20px;	
 }
 
 nav li:hover a{
@@ -24,52 +26,80 @@ nav li:hover a{
 #banner {
 	margin-top: 19px;
 	background-image: url("../images/background.jpg");
-	height: 500px;
+	background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 8%;
 }
 
 .logo {
-	position: absolute;
 	width: 5%;
-	right: 50%;
-	top: 30%;	
 }
 
 h1 {
-	font-size: 300%;
-	position: absolute;
-	left: 35.5%;
-	bottom: 50%;
+	font-size: 40px;
 	color: white;
 }
 
 h3 {
-	position: absolute;
-    font-size: 200%;
-    color: white;
-    left: 39%;
-    bottom: 44%;
-}
-
-.main {
-	position: relative;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-}
-
-div.col-1 {
-	left: 45%;
-    position: absolute;
+	font-size: 30px;
+	color: white;
 }
 
 .perfil {
-	margin-top: 45px;
 	padding: 3px;
 	border: 1px solid black;
-	width: 130%;
 }
 
-.main p {
-	
+#cats,#tapiz h2 {
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 5%;
+	font-size: 25px;
+	color: #BF48D8;
+}
+
+.col-12 {
+	text-align: center;
+}
+
+#tapiz p {
+	margin-left: 2%;
+}
+
+#tapiz {
+	padding-bottom: 4%;
+	padding-top: 1%;
+	background-image: url("../images/tile1.png");
+}
+
+#cats p {
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#cats img {
+	margin-top: 7%;
+	border-radius: 50%;
+	max-width: 90%;
+	padding: 1.5%;
+	border: 2px solid #BF48D8;
+}
+
+footer {
+	background-image: url(../images/tile2.png);
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+footer h2 {
+	font-size: 25px;
+	color: #BF48D8;
+	padding-bottom: 5%; 
+}
+.red {
+	max-width: 50%;
+}
+
+.redes{
+	text-align: center;
 }
