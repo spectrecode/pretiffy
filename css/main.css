@@ -1,47 +1,75 @@
 body {
-	font-family: "Oswald";
+	padding: 0px;
+ 	margin: 0px;
 }
 
-nav ul {
-	list-style-type: none;
-	padding-top: 25px;
-	padding-bottom: 15px;
-	font-size: 14px;
-	display: inline-block;
-	position: relative;
-	left: 115%;
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 20px 15px;
 }
 
 nav li {
-	position: relative;
 	float: left;
-	margin: 0;
-	padding: 0;
+	position: relative;
+	left: 145%;		
+	padding-top: 20px;
 }
 
-a {
-	text-decoration: none;
-  	padding: 10px 15px;
-  	color: black;
+nav li:hover a{
+	color: white;
+	background-color: black;
 }
 
-nav a:hover {
-	color: #fff;
-	background-color: #010101;
-}
-
-section {
+#banner {
+	margin-top: 19px;
 	background-image: url("../images/background.jpg");
 	height: 500px;
 }
 
-.container {
-	width: 100%;
+.logo {
+	position: absolute;
+	width: 5%;
+	right: 50%;
+	top: 30%;	
 }
 
-.logo {
-	width: 5%;
+h1 {
+	font-size: 300%;
 	position: absolute;
-	top: 50%;
-	right: 49%;
+	left: 35.5%;
+	bottom: 50%;
+	color: white;
+}
+
+h3 {
+	position: absolute;
+    font-size: 200%;
+    color: white;
+    left: 39%;
+    bottom: 44%;
+}
+
+.main {
+	position: relative;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+div.col-1 {
+	left: 45%;
+    position: absolute;
+}
+
+.perfil {
+	margin-top: 45px;
+	padding: 3px;
+	border: 1px solid black;
+	width: 130%;
+}
+
+.main p {
+	
 }
